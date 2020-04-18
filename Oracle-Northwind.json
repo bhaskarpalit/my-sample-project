@@ -2,7 +2,7 @@
     "GUID": "f1f47d20-819a-11ea-ad78-5911c06524ad",
     "modelName": "Oracle-Northwind",
     "code": "",
-    "lastModifTS": "2020-04-18T19:34:16.061Z",
+    "lastModifTS": "2020-04-18T20:20:21.152Z",
     "persistenceSchemaVersion": "4",
     "description": "",
     "comments": "",
@@ -1231,6 +1231,32 @@
                     "id": ""
                 },
                 {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "f4f2aa80-81b1-11ea-ad78-5911c06524ad",
+                    "name": "EMAIL",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {}
+                },
+                {
                     "code": "",
                     "type": "string",
                     "minLength": "",
@@ -2431,7 +2457,8 @@
         "1c3fc9a3-81a9-11ea-ad78-5911c06524ad": "PRODUCTS...UNIT_PRICE to ORDERS...UNIT_PRICE",
         "78ad2ce0-81aa-11ea-ad78-5911c06524ad": "PRODUCTS",
         "78ada211-81aa-11ea-ad78-5911c06524ad": "PRODUCT_ID",
-        "78adc920-81aa-11ea-ad78-5911c06524ad": "PRODUCTS...PRODUCT_ID to CATEGORIES...PRODUCT_ID"
+        "78adc920-81aa-11ea-ad78-5911c06524ad": "PRODUCTS...PRODUCT_ID to CATEGORIES...PRODUCT_ID",
+        "f4f2aa80-81b1-11ea-ad78-5911c06524ad": "EMAIL"
     },
     "definitions": {
         "type": "definitions",
@@ -2494,8 +2521,8 @@
                         "GUID": "e0145532-81a4-11ea-ad78-5911c06524ad",
                         "x": 81,
                         "y": 805.9999990463257,
-                        "width": 243,
-                        "height": 72,
+                        "width": 251,
+                        "height": 167,
                         "color": {}
                     },
                     {
